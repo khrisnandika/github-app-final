@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_opening1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opening_1"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="15sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="25dp"
+        style="@style/TextColor"
+        />
+    <TextView
+        android:id="@+id/txt_opening2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opening_2"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:layout_marginTop="46dp"
+        android:layout_marginStart="25dp"
+        style="@style/TextColor"
+        />
+
+    <ImageView
+        android:id="@+id/image_opening2"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@+id/txt_opening2"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/screenview"
+        />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_opening2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        app:queryHint="@string/search_hint"
+        android:theme="@style/SearchLight"
+        app:iconifiedByDefault="false"
+        app:queryBackground="@android:color/transparent"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchView"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        tools:listitem="@layout/list_users" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        style="?android:attr/progressBarStyle"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

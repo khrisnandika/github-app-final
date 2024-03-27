@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Github Mobile</string>
+    <string name="list_fav">List User Favorite</string>
+    <string name="detail">Detail User</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opening_1">Hello</string>
+    <string name="opening_2">Krisna!</string>
+
+    <string name="card_name">Krisna Choiril Andika</string>
+    <string name="card_id">khrisnandika</string>
+
+    <string name="detail_name">Krisna</string>
+    <string name="detail_id">khrisnandika</string>
+    <string name="detail_desc">Hey there 👋🏻 I am using github</string>
+
+    <string name="search_hint">Search in here...</string>
+
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="tab_text_3">About</string>
+    <string name="content_tab_followers">ini tab followers</string>
+    <string name="content_tab_following">ini tab following</string>
+    <string name="content_tab_text">ini Tab %1$d</string>
+
+    <string name="button_edit">Edit Profile</string>
+
+    <string name="total_followers">1,8k</string>
+    <string name="total_following">1,1k</string>
+    <string name="total_repo">10</string>
+    <string name="text_followers">Followers</string>
+    <string name="text_following">Following</string>
+    <string name="text_repo">Repository</string>
+
+    <string name="night_mode">Night Mode   </string>
+
+</resources>
